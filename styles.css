@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#puzzle {
+    width: 550px;
+    height: 550px;
+    margin-left: 35%;
+}
+
+#puzzle input {
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    border: 1px gray solid;
+    text-align: center;
+}
+
+.btn-submit {
+    margin-left: 50%;
+}
