@@ -2,13 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudoku Solver</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
 
-    <div id="puzzle"></div>
+    <div class="container" id="puzzle">
+        <div class="screen">
+            <div class="main-game">
+                <div class="main-grid"></div>
+            </div>
+        </div>
+    </div>
     <button class="btn btn-submit" id="btn-solve">Solve</button>
+    <button class="btn btn-clear">Clear</button>
 
     <script src="./index.js"></script>
 </body>
